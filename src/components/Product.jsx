@@ -7,7 +7,8 @@ function Product ({ product }) {
          <img src={product.img} alt={product.name} className='product-image'/>
             <h4>{product.name}</h4>
             </div>
-            <p className='discount'>Discount: {product.discount}%</p>
+            {product.discount  && <div className='discount-badge'>{product.discount}% OFF
+              </div>}
         <div className='product-details'>
             <p className='product-rating'>{product.rating}/5</p>
             < div className='price-container'>

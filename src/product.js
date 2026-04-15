@@ -125,7 +125,7 @@ const products = [
     name: "noise NoiseFit Mettle Smartwatch",
     description: "Thin & light laptop with high performance.",
     price: 899,
-    discount: 10,
+    
     rating: 4.5,
     img: "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Communication/Wearable%20Devices/Images/275664_0_SaXUGcrq0.png?updatedAt=1760542416721?tr=w-640",
     originalPrice: 999,
